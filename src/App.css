@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  background: #CDDDDD !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  margin-top: 10%;
+}
+
+.calculator {
+  font-weight: 300;
+  background-color:#635380 ;
+  padding: 4px;
+  margin-top: 30px;
+  max-height: 490px;
+}
+
+h3 { color: #FFFFFF; font-weight: bold; text-align: center; }
+
+.bmi-result-cont {
+  background-color: #253238;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.bmi-result-weight {
+  display: block;
+  width: 100%;
+  padding: 4px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color: #E0E3DA;
+}
+
+.bmi-result-num {
+  display: block;
+  width: 100%;
+  font-size: 21px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 4px 0;
+  color: #E0E3DA;
+}
+
+.bmi-result {
+  width: 100%;
+  height: 69px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.bmi-inputs {
+  background-color: #253238;
+  padding: 20px 4px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.bmi-style {
+  margin-top: 4px;
+  color: white;
+  background: red;
+  width: auto;
+}
+
+.range-container {
+  display: inline-block;
+  padding: 0;
+}
+
+button,
+button:focus,
+button:active{
+border:1px solid white;
+background: none;
+outline:none;
+}
+
+input:focus,
+input:active{
+outline: none;
+}
+
+.label {
+  width: 25%;
+  display: inline-block;
+  line-height: 24px;
+  padding: 2px 10px 2px 0;
+  font-weight: 300;
+  background: none;
+  text-align: right;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.input-groups {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-fields {
+  width: 100%;
+}
+
+.button {
+  position: relative;
+  min-width: 88px;
+  width: 150px;
+  margin: 6px auto;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #4aa1f3;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+  height: 36px;
+  padding: 0 26px;
+  border: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 36px;
+}
+
+.button,
+.button:focus,
+.button:active{
+border:1px solid #FFF8F0;
+background:#635380;
+outline: none;
+}
+
+.unit {
+  width: 25%;
+  display: inline-block;
+  line-height: 24px;
+  padding: 2px 10px 2px 0;
+  color: white;
+}
+
+.label-unit {
+  width: 25%;
+  display: inline-block;
+  line-height: 24px;
+  padding: 2px 10px 2px 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.bmi-category {
+  color: white;
+  margin-top: 10px;
+}
+
+select {
+  outline: none;
+}
+
+.underweight { 
+  color: #f1c40f;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight:bolder;
+
+
+
+}
+
+.normal { 
+  color: #16a085;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight:bolder;
+}
+
+.overweight { 
+  color: #e67e22;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight:bolder;
+}
+
+.obese { 
+  color: #e84118;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight:bolder;
+}
